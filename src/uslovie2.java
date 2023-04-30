@@ -6,7 +6,9 @@ public class uslovie2 {
         System.out.print("Введите имя пользователя: ");
         String mav = scan.nextLine();
         if(mav.equals("MavmaV")){
-            while (mav != "mav"){
+            int x = 0;
+            while (x != 5){
+                x++;
                 System.out.println("lol");
             }
         } else if(mav.equals("mav")){
