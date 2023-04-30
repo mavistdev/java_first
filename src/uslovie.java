@@ -8,10 +8,10 @@ public class uslovie {
         System.out.print("Введите число 2: ");
         int mav2 = scan.nextInt();
 
-        if(mav2 == 0){
-            System.out.println("Результат: " + mav/mav2);
+        if(mav2 != 0) {
+            System.out.println("Результат: " + mav*mav2);
         }
-        else(){
+        else {
             System.out.println("На 0 делить нельзя");
         }
 
