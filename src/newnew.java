@@ -14,7 +14,24 @@ public class newnew {
         //byte num2 = scan.nextByte();
         //boolean bool1 = scan.nextBoolean();
         //float num3 = scan.nextFloat();
+
+
+        /*
+        -
+        Функции для математики
+        -
+        + = +
+        / - дел без остатка (если инт)
+        % - остаток от деления
+        * = *
+        - = -
+         */
         System.out.print(num * num2);
+
+        num = num + 10;
+        num2 += 10;
+        num++; // добавление + 1
+        num--; // вычит -1
 
     }
 }
